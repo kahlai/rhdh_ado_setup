@@ -24,6 +24,13 @@ metadata:
   name: laioe
 spec:
   memberOf: team-a
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: laioe@hotmail.com
+spec:
+  memberOf: team-a
 ---  
 apiVersion: backstage.io/v1alpha1
 kind: System
